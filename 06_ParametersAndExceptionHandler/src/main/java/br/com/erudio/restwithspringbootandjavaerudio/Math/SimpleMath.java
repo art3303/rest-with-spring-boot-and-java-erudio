@@ -28,7 +28,6 @@ public class SimpleMath {
     }
 
 
-
     public Double squareRoot(Double number)  {
         return Math.sqrt(number);
     }
