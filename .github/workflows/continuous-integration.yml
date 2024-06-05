@@ -27,10 +27,7 @@ jobs:
         
     - name: Build Application JAR
       working-directory: ./rest-with-spring-boot-and-java-erudio/22_DockerizingOurApp
-      run: |
-          - pwd
-          
-          - mvn clean package
+      run: mvn clean package
 
     - name: Docker Compose Build Application JAR
       working-directory: ./rest-with-spring-boot-and-java-erudio
